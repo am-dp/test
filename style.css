@@ -1,0 +1,42 @@
+.cont
+{
+    color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ct{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container
+{
+    border: 2px  solid black ; 
+    width:inherit;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.p
+{
+    font-weight:bolder;
+    color: blue
+}
+.sub{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.kon
+{
+    border: 0px solid;
+    width: inherit;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font: bold;
+    
+    background: linear-gradient(rgba(212, 206, 206, 0.76),rgba(80, 78, 78, 0.87)),url(./Assets/images.jpeg);
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}

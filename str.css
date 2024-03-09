@@ -1,0 +1,97 @@
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+}
+.nav{
+   
+   width: 100%;
+   height: 20vh;
+   
+
+}
+
+.nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 10px;
+}
+.nav>.left{
+   
+   width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+
+}
+.nav>.left>ul{
+   display: flex;
+   gap: 2rem;
+   padding: 0px;
+}
+.nav>.left>ul>li>a{
+   text-decoration: none;
+   color: white;
+   padding: 0px;
+}
+.nav{
+   background: red;
+}
+.nav>.left>ul>li{
+   list-style: none;
+}
+.nav>.left>ul>li>a:hover{
+   color: rgb(10, 34, 255);
+   cursor:pointer;
+}
+.left>.img{
+   height: 15vh;
+   width: 18vh;
+   background: url(./Assets/slcs.logo.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+  
+}
+
+   
+.bak{
+   
+   width: 100%;
+   height: 100vh;
+   background: url(./Assets/network-4430786.jpg);
+   background-repeat: no-repeat;
+}
+.bak>.cont{
+  
+   padding-top: 10%;
+   width: 100%;
+   height: 100vh;
+
+}
+.bak>.cont>p{
+   color: white;
+
+   font: larger;
+   font-size: 250%;
+   display: flex;
+   justify-content: center;
+
+}
+.bak>.cont>.hi{
+   color: white;
+
+   font-size: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+
+}
+.bak>.cont>.hi>a{
+   color: white;
+
+   font-size: 100%;
+   display: flex;
+   justify-content: center;
+
+}
